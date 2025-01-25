@@ -37,7 +37,7 @@ app.use(cors(
   })
   
 
-  app.get("/", (req, res)=>{
+  app.get("/display", (req, res)=>{
     res.send({
       activeStatus: true,
       error: false,
